@@ -58,7 +58,21 @@ The following commands were used to manage the Vagrant VM.[^vagrant]
 
 ## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
+# Exercise 1.3:
+> Spin up a vagrant box and install Apache manually using the SSH terminal
+```bash
+# To boot up vagrant
+vagrant up
 
+# To connect guest virtual machine via SSH
+vagrant ssh
+
+# Install the Apache2 web server package manually inside the guest OS
+sudo apt-get update
+sudo apt-get install -y apache2
+sudo systemctl status apache2
+exit
+```
 
 
 ## Summary of learning
