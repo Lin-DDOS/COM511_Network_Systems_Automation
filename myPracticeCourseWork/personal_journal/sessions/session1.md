@@ -111,3 +111,6 @@ vagrant reload --provision
 
 ## Summary of learning
 *What did you learn through these exercises*
+- futher understand on how to use bash
+- provisioning of virtual machine manually or automatically
+- understand how to use vagrant
