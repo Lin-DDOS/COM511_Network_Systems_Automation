@@ -59,7 +59,7 @@ The following commands were used to manage the Vagrant VM.[^vagrant]
 ## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
 # Exercise 1.3:
-> Spin up a vagrant box and install Apache manually using the SSH terminal
+> Spin up a vagrant box and install Apache manually using the SSH terminal:
 ```bash
 # To boot up vagrant
 vagrant up
@@ -73,7 +73,38 @@ sudo apt-get install -y apache2
 sudo systemctl status apache2
 exit
 ```
+> To expose port 80 to see the Apache server on your host system:
+```bash
+Vagrant.configure("2") do |config|
+  config.vm.box = "bento/ubuntu-22.04"
 
+  # Forward guest port 80 (Apache) to host port 8080
+  config.vm.network "forwarded_port", guest: 80, host: 8080
+end
+
+# Apply the network configuration without destroying the VM
+vagrant reload
+```
+> To automate the software installation during machine creation, add an inline shell provisioner block to the Vagrantfile:
+```bash
+Vagrant.configure("2") do |config|
+  config.vm.box = "bento/ubuntu-22.04"
+
+  # Network Configuration
+  config.vm.network "forwarded_port", guest: 80, host: 8080
+
+  # Provisioning Configuration
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get install -y apache2
+    systemctl enable apache2
+    systemctl start apache2
+  SHELL
+end
+
+# Apply the changes without destroying the VM
+vagrant reload --provision
+```
 
 ## Summary of learning
 *What did you learn through these exercises*
