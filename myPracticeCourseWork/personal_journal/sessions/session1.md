@@ -85,6 +85,9 @@ end
 # Apply the network configuration without destroying the VM
 vagrant reload
 ```
+![Successful of loading Apache2 Default Page](myPracticeCourseWork/personal_journal/images/apache2.png)
+*Caption: Vagrantfile configuration forwarding guest port 80 to host port 8080 followed by successful verifying it working.
+
 > To automate the software installation during machine creation, add an inline shell provisioner block to the Vagrantfile:
 ```bash
 Vagrant.configure("2") do |config|
