@@ -27,6 +27,13 @@ The PXE boot process follows these steps:
 6. operating system installation files are retrieved from an NFS or HTTP server.
 7. Operating system installtion begins automatically.
 
+### NFS
+NFS (Network Files System) allows directories on one Linux machine to be shared across a network and mounted on another linux system.
+#### Benefits of NFS:
+- Centralised storage
+- Easy sharing of installation media
+- Supports automated deployment environments
+- Reduce duplication of files
 
 ## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
