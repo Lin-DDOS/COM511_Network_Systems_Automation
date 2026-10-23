@@ -34,6 +34,13 @@ NFS (Network Files System) allows directories on one Linux machine to be shared 
 - Easy sharing of installation media
 - Supports automated deployment environments
 - Reduce duplication of files
+### Relation to previous session
+This session builds upon Session 3 DHCP concepts.
+#### Without DHCP:
+- PXE clients cannot obtain an IP address.
+- PXE booting will fail.
+- Automated deployment cannot begin.
+
 
 ## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
