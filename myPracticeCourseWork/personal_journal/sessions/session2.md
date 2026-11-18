@@ -108,7 +108,7 @@ ansible -i inventory.ini all -m ping \
 
 **Result:** All three hosts returned `SUCCESS` and `ping: pong`. Python 3.12 was detected on `.10` and `.20`, and Python 3.9 on `.30`. Ansible also warned that `/vagrant` was world-writable.
 
-![Ansible ping showing successful responses from all three hosts](session2-assets/ansible-ping.png)
+![Ansible ping showing successful responses from all three hosts](../images/session2/ansible2-1_ping.png)
 
 *Screenshot: All three Ansible ping tests returned `pong`.*
 
