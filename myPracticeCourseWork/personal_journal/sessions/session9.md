@@ -4,6 +4,10 @@
 
 ## Topics covered
 *What topics were covered in this session*
+- Understanding what VPN is, how it works, how to implement it, and why we need it.
+- how to set up a VPN to a 'road warrior'.
+- how to set up a peer to peer vpn.
+- what benefits opnsense might provide.
 
 
 
