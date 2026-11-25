@@ -1,6 +1,13 @@
 
 # Network Systems Automation (COM511) 2026
 
+---
+**IMPORTANT**
+
+See the [Assessment Brief](./AssessmentBrief.md) and the [Assessment Advice](./AssessmentAdvice.md)
+
+---
+
 ## Module Sessions
 
 (Contents may be subject to changes)
@@ -158,16 +165,21 @@
          </td>
       </tr>
       <tr>
-         <td></td>
-         <td></td>
-         <td></td>
          <td>
-            <li></li>
+            <p><a href="../sessions/session8">Session&nbsp;8</a></p>
+         </td>
+         <td>
+            <p>Kubernetes</p>
+         </td>
+         <td>
+            <li>Docker desktop Kubernetes examples</li>
+         </td>
+         <td>
          </td>
       </tr>
       <tr>
          <td>
-            <p><a href="../sessions/session8">Session&nbsp;8</a></p>
+            <p><a href="../sessions/session9">Session&nbsp;9</a></p>
          </td>
          <td>
             <p>Networking / routing / firewalls and VPNs</p>
@@ -188,33 +200,7 @@
       </tr>
       <tr>
          <td>
-            <p><a href="../sessions/session9">Session&nbsp;9</a></p>
-         </td>
-         <td>
-            <p>Kubernetes</p>
-         </td>
-         <td>
-            <li>Docker desktop Kubernetes examples</li>
-         </td>
-         <td>
-         </td>
-      </tr>
-      <tr>
-         <td>
             <p><a href="../sessions/session10">Session&nbsp;10</a></p>
-         </td>
-         <td>
-            <p>Kubernetes 2</p>
-         </td>
-         <td>
-            <li>Further docker desktop Kubernetes examples</li>
-            <li>kind</li>
-         </td>
-         <td></td>
-      </tr>
-      <tr>
-         <td>
-            <p><a href="../sessions/session11">Session&nbsp;11</a></p>
          </td>
          <td>
             <p>Ansible network automation</p>
@@ -226,6 +212,17 @@
             <li>possibly onos etc</li>
          </td>
          <td></td>
+      </tr>
+      <tr>
+         <td>
+            <p><a href="../sessions/session11">Session&nbsp;11</a></p>
+         </td>
+         <td>
+              <p>Consolidate work so far</p>
+         </td>
+         <td></td>
+         <td>
+         </td>
       </tr>
       <tr>
          <td>
