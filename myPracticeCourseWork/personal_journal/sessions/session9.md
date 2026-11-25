@@ -13,7 +13,7 @@
 
 ## Personal Notes and research following this session
 *Which class sessions and personal research refers to technology in this proposal. Link to examples.*
-
+I've built a road-warriot VPN with OpenVPN on OPNsense firewall, running in vagrant and Virtualbox. A road-warrior VPN is one where a single remote client connects into a network. Along the way I've learnt:
 
 
 ## Exercises and results
