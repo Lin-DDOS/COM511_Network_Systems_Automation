@@ -30,6 +30,18 @@ Research and references:
 
 ## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
+### Exercise 1: Deploy OPNsense with Vagrant
+I ran `vagrant up` once to bootstrap OPNsense, which shut the VM down when it finished, and then ran `vagrant up` again to start the firewall.
+![Vagrant bootstrapping OPNsense](../images/session9/opnsense_bootstrap.png)
+![vagrant up starting the firewall](../images/session9/opnsense_running_1.png)
+![OPNsense VM running in VirtualBox](../images/session9/opnsense_running_2.png)
+I logged in to the web UI at https://192.168.56.56 as root. The dashboard showed OPNsense running.
+![OPNsense login page](../images/session9/opnsense_login.png)
+![OPNsense dashboard](../images/session9/opnsense_dashboard.png)
+### Exercise 2: Review the firewall rules
+Rules are split into tabs per interface: Floating, LAN, Loopback and WAN. The Floating tab holds the rule that allows SSH on all interfaces. LAN has the default allow rules.
+![Floating firewall rules](../images/session9/opnsense_firewall_floating.png)
+![LAN firewall rules](../images/session9/opnsense_firewall_LAN.png)
 
 
 
