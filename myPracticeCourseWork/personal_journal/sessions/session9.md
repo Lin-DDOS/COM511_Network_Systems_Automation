@@ -73,3 +73,9 @@ The VPN menu offers IPsec, OpenVPN and WireGuard. Under IPsec, Mobile Clients is
 
 ## Summary of learning
 *What did you learn through these exercises*
+I learned how a remote-access VPN works from start to finish:
+- how a CA establishes trust
+- how the server and client certificates are used for mutual authentication
+- how the tunnel network gives the client its own address
+I also learned that a VPN needs two separate firewall rules: one on WAN to let the encrypted traffic in, and one on the VPN interface to control what clients can reach after decryption.
+Troubleshooting taught me the most. The route error showed that the subnet mask has to match the real prefix length. The certificate error showed that a client profile only works if the user's certificate is exported with it.
